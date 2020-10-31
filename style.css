@@ -1,0 +1,53 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.navbar-brand img{
+	height:100px;
+	width:100px;
+}
+.bg-image{
+	background-image:url('../image/fitness9.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:500px;
+}
+.bg-image h1,p{
+	text-align:center;
+
+}
+.inner-about img{
+	width:700px;
+	height:300px;
+}
+.outer-about {
+	background-color:blue;
+}
+	
+	
+/* Contact form  */
+
+contact-form{
+ margin: 6em 0;
+ position: relative;  
+}
+
+.contact-form h1{
+ padding:2em 1px;
+ color: #F97300; 
+}
+.contact-form .right{
+ max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+ background:  #F97300;
+ color: #fff;
+ border:0;
+}
+.contact-form .right .form-control::placeholder{
+ color: #888;
+ font-size: 16px;
+}
